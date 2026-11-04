@@ -81,7 +81,7 @@ def build_elsevier_manuscript(output_path):
 
     # Authors
     a_p = doc.add_paragraph()
-    r_a = a_p.add_run("TRTL Research Consortium*\nDepartment of Advanced Agentic AI and Computational Physics\n*Corresponding Author: research@trtl-learning.org | Zenodo DOI: 10.5281/zenodo.23936990")
+    r_a = a_p.add_run("TRTL Research Consortium*\nDepartment of Advanced Agentic AI and Computational Physics\n*Corresponding Author: research@trtl-learning.org | Zenodo DOI: 10.5281/zenodo.23951913")
     r_a.font.name = "Times New Roman"
     r_a.font.size = Pt(10)
     r_a.font.italic = True
@@ -229,7 +229,7 @@ def build_elsevier_manuscript(output_path):
     doc.add_paragraph("The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.")
 
     doc.add_paragraph("Data and Code Availability:").runs[0].bold = True
-    doc.add_paragraph("All datasets, reproduction runners, 27 publication-grade figures, and core algorithms are fully open-sourced in the trtl Python package and permanently citable on Zenodo under DOI: 10.5281/zenodo.23936990. Complete replication executes in under 5 seconds via 'python reproduce_all.py'.")
+    doc.add_paragraph("All datasets, reproduction runners, 27 publication-grade figures, and core algorithms are fully open-sourced in the trtl Python package and permanently citable on Zenodo under DOI: 10.5281/zenodo.23951913. Complete replication executes in under 5 seconds via 'python reproduce_all.py'.")
 
     # References
     doc.add_heading("References", level=1)
@@ -306,7 +306,7 @@ def build_elsevier_cover_letter(output_path):
         "with 100% boundary crossing success.\n\n"
         "Open Science and Reproducibility:\n"
         "The complete experimental pipeline, mathematical verification suites, and all 27 publication-grade figures are archived under permanent "
-        "Zenodo DOI: 10.5281/zenodo.23936990 and replicate in 4.29 seconds via 'python reproduce_all.py'.\n\n"
+        "Zenodo DOI: 10.5281/zenodo.23951913 and replicate in 4.29 seconds via 'python reproduce_all.py'.\n\n"
         "We confirm that this manuscript represents original research, is not under consideration elsewhere, and all authors have approved submission.\n\n"
         "Thank you for your consideration.\n\n"
         "Sincerely,\n"
@@ -377,7 +377,7 @@ def build_nature_manuscript(output_path):
 
     # Authors
     a_p = doc.add_paragraph()
-    r_a = a_p.add_run("TRTL Research Consortium*\nDepartment of Advanced Agentic AI and Computational Physics\n*Corresponding Author: research@trtl-learning.org | Open Science DOI: 10.5281/zenodo.23936990")
+    r_a = a_p.add_run("TRTL Research Consortium*\nDepartment of Advanced Agentic AI and Computational Physics\n*Corresponding Author: research@trtl-learning.org | Open Science DOI: 10.5281/zenodo.23951913")
     r_a.font.name = "Arial"
     r_a.font.size = Pt(9.5)
     r_a.font.italic = True
@@ -486,14 +486,14 @@ def build_nature_manuscript(output_path):
     doc.add_paragraph(
         "All benchmark datasets evaluated in this study (Breast Cancer Wisconsin, Wine, Banknote Authentication, Ionosphere, Sonar, Optical Digits, "
         "and synthetic manifolds) are public domain benchmarks available from the UCI Machine Learning Repository and scikit-learn. "
-        "Pre-processed benchmark splits are permanently archived at Zenodo: https://doi.org/10.5281/zenodo.23936990."
+        "Pre-processed benchmark splits are permanently archived at Zenodo: https://doi.org/10.5281/zenodo.23951913."
     ).runs[0].font.name = "Arial"
 
     doc.add_heading("Code Availability", level=1)
     doc.add_paragraph(
         "The complete source code for TRTL, baseline model scripts, optimization routines, 27 publication-grade figure generation pipelines, "
         "and master reproduction verification runners are packaged into the 'trtl' Python package and permanently deposited under Zenodo DOI: "
-        "10.5281/zenodo.23936990. Complete replication executes in 4.29 seconds via 'python reproduce_all.py'."
+        "10.5281/zenodo.23951913. Complete replication executes in 4.29 seconds via 'python reproduce_all.py'."
     ).runs[0].font.name = "Arial"
 
     # References
@@ -574,7 +574,7 @@ def build_nature_cover_letter(output_path):
         "with a 100% boundary crossing success rate.\n\n"
         "Full Reproducibility & Open Science Compliance:\n"
         "In strict compliance with Nature's open science mandates, all mathematical derivations (11 formal proofs), benchmark pipelines, 27 publication-grade "
-        "figures, and core software algorithms are packaged into the 'trtl' Python package and permanently deposited under Zenodo DOI: 10.5281/zenodo.23936990. "
+        "figures, and core software algorithms are packaged into the 'trtl' Python package and permanently deposited under Zenodo DOI: 10.5281/zenodo.23951913. "
         "The complete benchmark suite verifies in 4.29 seconds via 'python reproduce_all.py'.\n\n"
         "Suggested Independent Reviewers:\n"
         "- Prof. Michael M. Bronstein (University of Oxford) - World authority on non-Euclidean geometric deep learning and manifold learning.\n"
@@ -587,7 +587,7 @@ def build_nature_cover_letter(output_path):
         "The TRTL Research Consortium\n"
         "Department of Advanced Agentic AI and Computational Physics\n"
         "Email: research@trtl-learning.org\n"
-        "Zenodo DOI Archive: https://doi.org/10.5281/zenodo.23936990"
+        "Zenodo DOI Archive: https://doi.org/10.5281/zenodo.23951913"
     )
     p_body = doc.add_paragraph(body_text)
     p_body.runs[0].font.name = "Arial"

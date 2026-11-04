@@ -170,7 +170,7 @@ def build_full_manuscript(output_path):
     r_a = a_p.add_run(
         "TRTL Research Consortium*\n"
         "Department of Advanced Agentic AI and Computational Physics\n"
-        "*Corresponding Author: research@trtl-learning.org | Zenodo Permanent DOI: 10.5281/zenodo.23936990\n"
+        "*Corresponding Author: research@trtl-learning.org | Zenodo Permanent DOI: 10.5281/zenodo.23951913\n"
         "Submission Venue: Pattern Recognition (Elsevier)"
     )
     r_a.font.name = "Times New Roman"
@@ -200,7 +200,7 @@ def build_full_manuscript(output_path):
         "recent 2020-2026 Lorentzian Hyperbolic, Complex Wave, and Energy Ginzburg-Landau models—demonstrate extraordinary label noise resilience: under 40% symmetric "
         "label corruption, Deep MLPs collapse by 43.40% (down to 54.49%), while TRTL maintains 89.63% accuracy (+35.1% advantage, Wilcoxon p = 0.000977 < 0.001). "
         "Furthermore, TRTL achieves a perfect 1.0000 AUROC on far-OOD void detection and generates continuous counterfactual recourse that is 9.2x more on-manifold "
-        "and 475x smoother than state-of-the-art DiCE optimization. All proofs, benchmarks, and 29 publication-grade figures replicate in 3.62 seconds under Zenodo DOI: 10.5281/zenodo.23936990."
+        "and 475x smoother than state-of-the-art DiCE optimization. All proofs, benchmarks, and 29 publication-grade figures replicate in 3.62 seconds under Zenodo DOI: 10.5281/zenodo.23951913."
     )
     p_abs.runs[0].font.name = "Times New Roman"
     p_abs.runs[0].font.size = Pt(10)
@@ -272,7 +272,7 @@ def build_full_manuscript(output_path):
         "Wilcoxon signed-rank tests (p = 0.000977 < 0.001).\n"
         "• On-Manifold Continuous Counterfactual Recourse: The paper formulates Thermodynamic Counterfactual Recourse (TCR), achieving 9.2x greater manifold plausibility "
         "(Mahalanobis d_Sigma = 8.78 vs. DiCE 80.67) and 475x smoother recourse paths (curvature kappa = 0.012) with a 100% boundary crossing success rate.\n"
-        "• Complete Open-Source Reproducibility: All algorithms, 11 formal proofs, and 29 publication-grade figures are archived under Zenodo DOI: 10.5281/zenodo.23936990."
+        "• Complete Open-Source Reproducibility: All algorithms, 11 formal proofs, and 29 publication-grade figures are archived under Zenodo DOI: 10.5281/zenodo.23951913."
     )
 
     doc.add_heading("1.2. Paper Organization", level=2)
@@ -785,7 +785,7 @@ def build_full_manuscript(output_path):
     doc.add_paragraph("Data and Code Availability:").runs[0].bold = True
     doc.add_paragraph(
         "All benchmark datasets, reproduction scripts, 29 publication-grade figures, and core algorithms are fully open-sourced in the 'trtl' Python package "
-        "and permanently citable on Zenodo under DOI: 10.5281/zenodo.23936990. Complete replication executes in 3.62 seconds via 'python reproduce_all.py'."
+        "and permanently citable on Zenodo under DOI: 10.5281/zenodo.23951913. Complete replication executes in 3.62 seconds via 'python reproduce_all.py'."
     )
 
     # --------------------------------------------------------------------------
