@@ -38,7 +38,6 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/trtl-consortium/trtl"
-Repository = "https://github.com/trtl-consortium/trtl"
-Documentation = "https://github.com/trtl-consortium/trtl/tree/main/docs"
-DOI = "https://doi.org/10.5281/zenodo.23936990"
+Homepage = "https://github.com/Vishal442005/TRTL-Topological-Relativistic-Thermodynamic-Learning"
+Repository = "https://github.com/Vishal442005/TRTL-Topological-Relativistic-Thermodynamic-Learning"
+Documentation = "https://github.com/Vishal442005/TRTL-Topological-Relativistic-Thermodynamic-Learning"

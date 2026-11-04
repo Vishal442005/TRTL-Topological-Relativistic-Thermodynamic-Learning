@@ -1,8 +1,12 @@
 {
   "title": "Topological-Relativistic-Thermodynamic Learning (TRTL): A Unified Physics-Grounded Machine Learning Framework",
   "upload_type": "software",
-  "description": "Permanent open-science research artifact and reproduction software suite for Topological-Relativistic-Thermodynamic Learning (TRTL). Contains mathematical proof scripts, multi-domain benchmark runners, adversarial vulnerability evaluations, 23 publication-grade vector figures, and full-length IEEE TPAMI / Elsevier Pattern Recognition manuscript sources.",
+  "description": "Official reproduction suite and research artifact for Topological-Relativistic-Thermodynamic Learning (TRTL). Includes full mathematical proofs, non-Euclidean manifold embeddings, relativistic phase propagation engines, non-equilibrium thermodynamic phase transition monitors, 16 publication figures, 10 comparative benchmark tables, and submission packages for Elsevier Pattern Recognition.",
   "creators": [
+    {
+      "name": "Vishal",
+      "affiliation": "Advanced Agentic AI & Computational Physics Research Laboratory"
+    },
     {
       "name": "TRTL Research Consortium",
       "affiliation": "Advanced Agentic AI & Computational Physics Research Laboratory"
@@ -12,13 +16,14 @@
   "license": "MIT",
   "keywords": [
     "Machine Learning",
-    "General Relativity",
-    "Wave Interference",
-    "Thermodynamic Phase Transitions",
+    "Pattern Recognition",
+    "Topological Data Analysis",
+    "Relativistic Metric Dilatation",
+    "Lorentzian Manifolds",
+    "Non-Equilibrium Thermodynamics",
     "Ginzburg-Landau Theory",
     "Adversarial Robustness",
     "Counterfactual Recourse"
   ],
-  "version": "1.0.0",
-  "doi": "10.5281/zenodo.23936990"
+  "version": "1.0.0"
 }
