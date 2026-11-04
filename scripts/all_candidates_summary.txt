@@ -1,0 +1,400 @@
+[ 1] Year: 2026 | ID: 2610.28487v1
+     Title: Geometry-Agnostic Data-Driven Discovery of Extreme Scenarios
+     Authors: Angeline Hu, Ava K. Tse, Kaitlyn S. Yasumura et al.
+     Summary: We introduce a two-stage data-driven neural framework for discovering dynamically admissible extreme scenarios. Rather than assuming prior knowledge of the gove...
+--------------------------------------------------------------------------------
+[ 2] Year: 2026 | ID: 2609.28248v2
+     Title: hyperbolix: Hyperbolic Deep Learning in JAX
+     Authors: Timo Klein, Thomas Lang, Yllka Velaj et al.
+     Summary: We present hyperbolix, an open-source library for hyperbolic deep learning in JAX, built on Flax NNX. To our knowledge, it is the first comprehensive, general-p...
+--------------------------------------------------------------------------------
+[ 3] Year: 2026 | ID: 2609.16925v1
+     Title: HyCoSeq: Contextual Hyperbolic Representation Learning for Genomic Sequences
+     Authors: Chenhao Zeng, Zhibin Pu, Shufei Ge
+     Summary: Hyperbolic geometry provides a natural inductive bias for genomic representation learning, but existing hyperbolic genomic models primarily use Lorentz convolut...
+--------------------------------------------------------------------------------
+[ 4] Year: 2026 | ID: 2609.00883v1
+     Title: iPINN for Broadband CARS Phase Retrieval: A Framework for Function Approximation and Inverse Modeling Problems in Nonlinear Spectroscopy
+     Authors: Ravi Teja Vulchi, Carl Messerschmidt, Mohammadsadegh Vafaeinezhad et al.
+     Summary: Phase retrieval in broadband coherent anti-Stokes Raman spectroscopy (BCARS) is an ill-posed inverse problem. The Raman-like signal is encoded in the imaginary ...
+--------------------------------------------------------------------------------
+[ 5] Year: 2026 | ID: 2607.06132v1
+     Title: Self-Supervised Implicit CEST Reconstruction via Physics-Informed Lorentz Encoding
+     Authors: Dexuan Li, Yupeng Wu, Chenglong Wang et al.
+     Summary: Multi-Pool Chemical Exchange Saturation Transfer (CEST) MRI provides valuable metabolic information but is clinically limited by long acquisition times. Althoug...
+--------------------------------------------------------------------------------
+[ 6] Year: 2026 | ID: 2607.05489v1
+     Title: Black Hole Black Boxes: Numerical Black Hole Metrics via AInstein Neural Networks
+     Authors: Tancredi Schettini Gherardini, Edward Hirst, Alexander George Stapleton
+     Summary: The AInstein architecture introduced an unsupervised neural method for solving the Riemannian Einstein equations on arbitrary manifolds. This Physics Informed N...
+--------------------------------------------------------------------------------
+[ 7] Year: 2026 | ID: 2607.15291v1
+     Title: A Physics-Informed Neural Network with a Modified Lorentzian Activation for Nonlocal Gradient-Flow Equations in Dynamic Density Functional Theory
+     Authors: Dimitrios Gourzoulidis, Soumaya Elkantassi, Serafim Kalliadasis
+     Summary: We develop a physics-informed neural network (PINN) framework for nonlocal partial differential equations arising in dynamic density functional theory (DDFT). S...
+--------------------------------------------------------------------------------
+[ 8] Year: 2026 | ID: 2608.13562v1
+     Title: L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics
+     Authors: Songhee Kang, Jihoon Kang
+     Summary: Modern operational systems face uncertainty even in routine conditions, where rare, bursty, and self-exciting events emerge from both exogenous covariates and e...
+--------------------------------------------------------------------------------
+[ 9] Year: 2025 | ID: 2512.08218v1
+     Title: PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning
+     Authors: Ye Qin, Jingchao Wang, Yang Shi et al.
+     Summary: Capsule Networks (CapsNets) show exceptional graph representation capacity via dynamic routing and vectorized hierarchical representations, but they model the c...
+--------------------------------------------------------------------------------
+[10] Year: 2022 | ID: 2212.03720v1
+     Title: Pseudo-Riemannian Embedding Models for Multi-Relational Graph Representations
+     Authors: Saee Paliwal, Angus Brayne, Benedek Fabian et al.
+     Summary: In this paper we generalize single-relation pseudo-Riemannian graph embedding models to multi-relational networks, and show that the typical approach of encodin...
+--------------------------------------------------------------------------------
+[11] Year: 2022 | ID: 2212.01310v1
+     Title: Gaussian Process regression over discrete probability measures: on the non-stationarity relation between Euclidean and Wasserstein Squared Exponential Kernels
+     Authors: Antonio Candelieri, Andrea Ponti, Francesco Archetti
+     Summary: Gaussian Process regression is a kernel method successfully adopted in many real-life applications. Recently, there is a growing interest on extending this meth...
+--------------------------------------------------------------------------------
+[12] Year: 2022 | ID: 2206.00449v1
+     Title: Ultrahyperbolic Knowledge Graph Embeddings
+     Authors: Bo Xiong, Shichao Zhu, Mojtaba Nayyeri et al.
+     Summary: Recent knowledge graph (KG) embeddings have been advanced by hyperbolic geometry due to its superior capability for representing hierarchies. The topological st...
+--------------------------------------------------------------------------------
+[13] Year: 2021 | ID: 2106.08678v1
+     Title: Directed Graph Embeddings in Pseudo-Riemannian Manifolds
+     Authors: Aaron Sim, Maciej Wiatrak, Angus Brayne et al.
+     Summary: The inductive biases of graph representation learning algorithms are often encoded in the background geometry of their embedding space. In this paper, we show t...
+--------------------------------------------------------------------------------
+[14] Year: 2021 | ID: 2106.03134v4
+     Title: Pseudo-Riemannian Graph Convolutional Networks
+     Authors: Bo Xiong, Shichao Zhu, Nico Potyka et al.
+     Summary: Graph convolutional networks (GCNs) are powerful frameworks for learning embeddings of graph-structured data. GCNs are traditionally studied through the lens of...
+--------------------------------------------------------------------------------
+[15] Year: 2020 | ID: 2007.00211v5
+     Title: Ultrahyperbolic Representation Learning
+     Authors: Marc T. Law, Jos Stam
+     Summary: In machine learning, data is usually represented in a (flat) Euclidean space where distances between points are along straight lines. Researchers have recently ...
+--------------------------------------------------------------------------------
+[16] Year: 2026 | ID: 2601.12519v1
+     Title: Learning Relativistic Geodesics and Chaotic Dynamics via Stabilized Lagrangian Neural Networks
+     Authors: Abdullah Umut Hamzaogullari, Arkadas Ozakin
+     Summary: Lagrangian Neural Networks (LNNs) can learn arbitrary Lagrangians from trajectory data, but their unusual optimization objective leads to significant training i...
+--------------------------------------------------------------------------------
+[17] Year: 2025 | ID: 2512.21944v3
+     Title: Data relativistic uncertainty framework for low-illumination anime scenery image enhancement
+     Authors: Yiquan Gao, John See
+     Summary: By contrast with the prevailing works of low-light enhancement in natural images and videos, this study copes with the low-illumination quality degradation in a...
+--------------------------------------------------------------------------------
+[18] Year: 2025 | ID: 2504.20568v1
+     Title: Digital Shielding for Cross-Domain Wi-Fi Signal Adaptation using Relativistic Average Generative Adversarial Network
+     Authors: Danilo Avola, Federica Bruni, Gian Luca Foresti et al.
+     Summary: Wi-Fi sensing uses radio-frequency signals from Wi-Fi devices to analyze environments, enabling tasks such as tracking people, detecting intrusions, and recogni...
+--------------------------------------------------------------------------------
+[19] Year: 2025 | ID: 2502.08150v1
+     Title: Force Matching with Relativistic Constraints: A Physics-Inspired Approach to Stable and Efficient Generative Modeling
+     Authors: Yang Cao, Bo Chen, Xiaoyu Li et al.
+     Summary: This paper introduces Force Matching (ForM), a novel framework for generative modeling that represents an initial exploration into leveraging special relativist...
+--------------------------------------------------------------------------------
+[20] Year: 2024 | ID: 2411.13903v1
+     Title: AmpliNetECG12: A lightweight SoftMax-based relativistic amplitude amplification architecture for 12 lead ECG classification
+     Authors: Shreya Srivastava
+     Summary: The urgent need to promptly detect cardiac disorders from 12-lead Electrocardiograms using limited computations is motivated by the heart's fast and complex ele...
+--------------------------------------------------------------------------------
+[21] Year: 2024 | ID: 2411.00105v2
+     Title: A Universal Quantum Computer From Relativistic Motion
+     Authors: Philip A. LeMaitre, T. Rick Perche, Marius Krumm et al.
+     Summary: We present an explicit construction of a relativistic quantum computing architecture using a variational quantum circuit approach that is shown to allow for uni...
+--------------------------------------------------------------------------------
+[22] Year: 2023 | ID: 2301.07390v3
+     Title: Relativistic Digital Twin: Bringing the IoT to the Future
+     Authors: Luca Sciullo, Alberto De Marchi, Angelo Trotta et al.
+     Summary: Complex IoT ecosystems often require the usage of Digital Twins (DTs) of their physical assets in order to perform predictive analytics and simulate what-if sce...
+--------------------------------------------------------------------------------
+[23] Year: 2020 | ID: 2004.14409v2
+     Title: Classification of Equation of State in Relativistic Heavy-Ion Collisions Using Deep Learning
+     Authors: Yu. Kvasiuk, E. Zabrodin, L. Bravina et al.
+     Summary: Convolutional Neural Nets, which is a powerful method of Deep Learning, is applied to classify equation of state of heavy-ion collision event generated within t...
+--------------------------------------------------------------------------------
+[24] Year: 2021 | ID: 2111.00006v1
+     Title: Adaptive Hierarchical Similarity Metric Learning with Noisy Labels
+     Authors: Jiexi Yan, Lei Luo, Cheng Deng et al.
+     Summary: Deep Metric Learning (DML) plays a critical role in various machine learning tasks. However, most existing deep metric learning methods with binary similarity a...
+--------------------------------------------------------------------------------
+[25] Year: 2026 | ID: 2606.30827v1
+     Title: Time-dependent adaptive mesh refinement solver for the Gross-Pitaevskii-Poisson equations
+     Authors: Iván Álvarez-Rios
+     Summary: This work presents a new numerical code for solving the time--dependent Gross--Pitaevskii--Poisson (GPP) system using adaptive mesh refinement (AMR). The code i...
+--------------------------------------------------------------------------------
+[26] Year: 2026 | ID: 2606.15642v1
+     Title: CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting
+     Authors: Abdul Joseph Fofanah, Lian Wen, David Chen et al.
+     Summary: Accurate traffic flow prediction remains challenging in cross-city, data-scarce scenarios where limited historical data hinders model generalisation. The chaoti...
+--------------------------------------------------------------------------------
+[27] Year: 2026 | ID: 2603.15886v4
+     Title: PhasorFlow: A Python Library for Unit Circle Based Computing
+     Authors: Dibakar Sigdel, Namuna Panday
+     Summary: We present PhasorFlow, an open-source Python library for computing on the $S^1$ unit circle. Inputs are encoded as complex phasors $z=e^{iφ}$ on the $N$-torus (...
+--------------------------------------------------------------------------------
+[28] Year: 2025 | ID: 2512.22296v1
+     Title: Hybrid Quantum-Classical Mixture of Experts: Unlocking Topological Advantage via Interference-Based Routing
+     Authors: Reda Heddad, Lamiae Bouanane
+     Summary: The Mixture-of-Experts (MoE) architecture has emerged as a powerful paradigm for scaling deep learning models, yet it is fundamentally limited by challenges suc...
+--------------------------------------------------------------------------------
+[29] Year: 2025 | ID: 2509.19331v2
+     Title: Holographic Transformers for Complex-Valued Signal Processing: Integrating Phase Interference into Self-Attention
+     Authors: Enhao Huang, Zhiyu Zhang, Tianxiang Xu et al.
+     Summary: Complex-valued signals encode both amplitude and phase, yet most deep models treat attention as real-valued correlation, overlooking interference effects. We in...
+--------------------------------------------------------------------------------
+[30] Year: 2025 | ID: 2507.15329v1
+     Title: Hypergraph modelling of wave scattering to speed-up material design
+     Authors: Kunwoo Park, Ikbeom Lee, Seungmok Youn et al.
+     Summary: Hypergraphs offer a generalized framework for understanding complex systems, covering group interactions of different orders beyond traditional pairwise interac...
+--------------------------------------------------------------------------------
+[31] Year: 2024 | ID: 2407.03362v1
+     Title: Phase space path integral representation of the dynamic structure factor. Monte Carlo simulation of strongly correlated soft-sphere fermions
+     Authors: V. S. Filinov, P. R. Levashov, A. S. Larkin
+     Summary: The dynamic structure factor (DSF) is a mathematical function that contains information about inter-particle correlations and their time evolution. Mostly the c...
+--------------------------------------------------------------------------------
+[32] Year: 2024 | ID: 2406.03959v1
+     Title: Path Integral Monte Carlo Simulation of Superfluid Ring Lattices
+     Authors: Orjan Ameye
+     Summary: The goal of this work is to lay the groundwork to construct and characterize a quantum device; which we refer to as a superfluid ring lattice; that could serve ...
+--------------------------------------------------------------------------------
+[33] Year: 2026 | ID: 2611.01680v1
+     Title: Wave Physics as Representation: Tensor-Structured Neural Reconstruction for Ocean Acoustic Fields
+     Authors: Yifan Sun, Panqi Chen, Weifeng Shi et al.
+     Summary: Reconstructing three-dimensional (3D) complex ocean acoustic fields from sparse measurements is challenging due to highly oscillatory wave structures and restri...
+--------------------------------------------------------------------------------
+[34] Year: 2026 | ID: 2610.38269v1
+     Title: A Hybrid Physics-informed holomorphic neural networks Method
+     Authors: Zhijie Su, Qiaolin He, Zhiping Mao et al.
+     Summary: Physics-informed holomorphic neural networks (PIHNNs) exploit complex-analytic representations to satisfy homogeneous PDEs by construction, but their extension ...
+--------------------------------------------------------------------------------
+[35] Year: 2026 | ID: 2610.25059v1
+     Title: HCFM: Helmholtz Component Flow Matching for Time Series Anomaly Detection
+     Authors: Shyam Sundar Saravanan, Tie Luo, Sanjay Madria
+     Summary: Flow Matching (FM) is an efficient simulation-free approach for training flow-based generative models, making it a promising foundation for scalable time-series...
+--------------------------------------------------------------------------------
+[36] Year: 2026 | ID: 2610.16542v1
+     Title: Neural Network Preconditioning: A Case Study for the Solution of the Parametric Helmholtz Equation
+     Authors: Luc Giraud, Carola Kruse, Paul Mycek et al.
+     Summary: This work presents a hybrid numerical approach for solving linear systems arising from the discretization of the two-dimensional parametric Helmholtz equation. ...
+--------------------------------------------------------------------------------
+[37] Year: 2026 | ID: 2610.04390v1
+     Title: Gaussian Flow Dynamics: Simulation-Free Neural SDE Learning Beyond One-Time Marginals
+     Authors: Grigory Bartosh, Christian A. Naesseth
+     Summary: Simulation-free training of latent Stochastic Differential Equations (SDEs) relies on a variational posterior process whose one-time marginals are tractable, ty...
+--------------------------------------------------------------------------------
+[38] Year: 2026 | ID: 2609.38089v1
+     Title: Neural topology optimization of ship structures under propulsion machinery vibrations
+     Authors: Shengyu Yan, Muhammad Muztahidul Hakim Zareer, Jasmin Jelovica
+     Summary: Ship structural vibrations contribute to noise, fatigue, and equipment damage, while dynamic-compliance topology optimization can produce pathological designs n...
+--------------------------------------------------------------------------------
+[39] Year: 2026 | ID: 2609.37609v1
+     Title: PHASE: Multi-Regime Modeling of Incompressible Magnetohydrodynamics
+     Authors: Radhika Achikanath Chirakkara, Rajdeep Haldar, Zezheng Song et al.
+     Summary: Magnetohydrodynamics (MHD) is central to plasma modeling in astrophysics, space science, fusion, and engineering, but resolving multiscale MHD dynamics is compu...
+--------------------------------------------------------------------------------
+[40] Year: 2026 | ID: 2609.37351v1
+     Title: Port-Hamiltonian Latent Deliberation: Mitigating the Deliberation Drift Cliff in Test-Time Compute Scaling
+     Authors: Zeyu Jia
+     Summary: Test-time compute scaling has emerged as a cornerstone of advanced machine reasoning, yet performing iterative deliberation directly within continuous latent re...
+--------------------------------------------------------------------------------
+[41] Year: 2026 | ID: 2611.04695v1
+     Title: Surrogate Models for Stochastic Al-Cu Phase-Field Solidification
+     Authors: Simon Savukoski, Tatu Pinomaa
+     Summary: Phase-field models resolve microstructural evolution during rapid alloy solidification, but their computational cost limits long trajectories, stochastic ensemb...
+--------------------------------------------------------------------------------
+[42] Year: 2026 | ID: 2610.01432v1
+     Title: Learning ab initio phase-field models
+     Authors: Mengyi Chen, Peichen Zhong, Zihan Zhang et al.
+     Summary: Simulating microstructure evolution requires quantum-mechanical accuracy and mesoscopic reach in length and time scales, a combination that no current method ac...
+--------------------------------------------------------------------------------
+[43] Year: 2026 | ID: 2608.24126v1
+     Title: A mesh-free multiresolution deep energy method with phase-field modeling of brittle fracture
+     Authors: Han Zhang, Mehrisadat Makki Alamdari, Babak Shahbodagh et al.
+     Summary: Phase-field modeling of brittle fracture removes the need to track cracks explicitly by recasting their evolution as the minimization of an energy functional. I...
+--------------------------------------------------------------------------------
+[44] Year: 2026 | ID: 2606.24660v1
+     Title: Extended pseudo-spectral physics-informed neural networks for phase-field models
+     Authors: Callum Marsh, Radek Erban, Andreas Munch
+     Summary: Phase-field models play a central role in the continuum description of phase separation, in which the bulk free-energy density and the interfacial thickness par...
+--------------------------------------------------------------------------------
+[45] Year: 2026 | ID: 2606.19378v1
+     Title: A Hybrid GNN-FEM Framework for Phase-Field Fracture Simulation. Physics-Preserving Hybridization for Generalizable Surrogate Modeling
+     Authors: Hyeonbin Moon, Yongjin Choi, Seunghwa Ryu
+     Summary: Scientific machine learning (SciML) has emerged as a promising approach for accelerating simulations of complex physical systems, yet achieving physically consi...
+--------------------------------------------------------------------------------
+[46] Year: 2026 | ID: 2605.04229v1
+     Title: Capabilities of Auto-encoders and Principal Component Analysis of the Reduction of Microstructural Images; Application on the Acceleration of Phase-Field Simulations
+     Authors: Seifallah Fetni, Thinh Quy Duc Pham, Truong Vinh Hoang et al.
+     Summary: In this work, a data-driven framework based on Phase-Field simulations data is proposed to highlight the capabilities of neural networks to ensure accurate low ...
+--------------------------------------------------------------------------------
+[47] Year: 2026 | ID: 2604.18261v1
+     Title: DeepRitzSplit Neural Operator for Phase-Field Models via Energy Splitting
+     Authors: Chih-Kang Huang, Ludovick Gagnon, Miha Založnik et al.
+     Summary: The multi-scale and non-linear nature of phase-field models of solidification requires fine spatial and temporal discretization, leading to long computation tim...
+--------------------------------------------------------------------------------
+[48] Year: 2026 | ID: 2603.09693v2
+     Title: Physics-informed neural operator for parametric phase-field modelling of interfacial degradation and microstructural evolution
+     Authors: Nanxi Chen, Airong Chen, Rujin Ma
+     Summary: Predicting interfacial degradation and microstructural evolution through phase-field modelling is computationally intensive, particularly for parametric studies...
+--------------------------------------------------------------------------------
+[49] Year: 2026 | ID: 2610.05570v2
+     Title: Poisson-GENERIC Neural Operators: Exact Metriplectic Structure in Function Space via Casimir Entropies
+     Authors: Jason Sulskis, Sathya Ravi
+     Summary: Existing thermodynamically consistent neural operators enforce GENERIC degeneracy by projecting the reversible operator, introducing state dependence without gu...
+--------------------------------------------------------------------------------
+[50] Year: 2026 | ID: 2610.04067v1
+     Title: On architectural choices for interpretability and thermodynamic consistency in Physically Recurrent Neural Networks in the low-data regime
+     Authors: M. A. Maia, K. A. Meyer, A. M. C. M. van Gils et al.
+     Summary: In this paper, we unravel the effect of different decoder architectures on the interpretability of the latent space of the Physically Recurrent Neural Network. ...
+--------------------------------------------------------------------------------
+[51] Year: 2026 | ID: 2609.37113v1
+     Title: Neural Constitutive Learning for Generalized Reaction-Diffusion Systems
+     Authors: Shang-Ke Chen, Yu-Peng Wang, Shih-Hsuan Hung et al.
+     Summary: Generalized reaction-diffusion systems encompass diverse transport mechanisms and coupled reaction kinetics. A central question for neural PDE solvers is what s...
+--------------------------------------------------------------------------------
+[52] Year: 2026 | ID: 2609.28868v1
+     Title: Image Fidelity is Not Field Fidelity: Joint Thermodynamic Reconstruction and Error Localization in Neural Tomography
+     Authors: Alan Hsu, Jenna Samra, Alin Razvan Paraschiv et al.
+     Summary: Neural fields for scientific tomography are optimized from 2D images, but the actual quantity of interest is often a latent 3D physical field. Because the forwa...
+--------------------------------------------------------------------------------
+[53] Year: 2026 | ID: 2609.21647v2
+     Title: Riemannian Neural Hamiltonian Flows: From Interpretable Potentials to Exact Surrogate Sampling
+     Authors: Vincent Souveton
+     Summary: Hamiltonian normalizing flows are attractive generative models because their phase-space maps are invertible and volume preserving, but most neural construction...
+--------------------------------------------------------------------------------
+[54] Year: 2026 | ID: 2609.02948v2
+     Title: FrOGS: Discrete Neural Sampler for Independent Alloy Configurations Across Chemical Conditions
+     Authors: Kyucheol Min, Elyssa Hofgard, Tess Smidt
+     Summary: Predicting the thermodynamic properties of an alloy requires sampling its configurations across many chemical conditions and recovering free energies on a commo...
+--------------------------------------------------------------------------------
+[55] Year: 2026 | ID: 2608.22782v1
+     Title: Neural Operator based Multi-Field Reconstruction of Inner Solar Boundary State
+     Authors: Vignesh Kumar Pandian Sathia, Reza Mansouri, Dustin J. Kempton et al.
+     Summary: The Solar wind is a continuous flow of charged particles emanating from the solar surface and governed by complex, interacting magnetohydrodynamic processes. Ac...
+--------------------------------------------------------------------------------
+[56] Year: 2026 | ID: 2607.19241v1
+     Title: Thermodynamics-Informed Input Reparameterization for Neural Prediction of Real-Fluid Thermodynamic Properties in Supercritical Combustion
+     Authors: Haoze Zhang, Han Li, Ke Xiao et al.
+     Summary: Real-fluid thermodynamic property evaluation is a major computational cost in supercritical combustion simulations. In the enthalpy-based pressure-correction fo...
+--------------------------------------------------------------------------------
+[57] Year: 2026 | ID: 2611.02022v1
+     Title: Topological Defect Statistics in a Weakly First-Order Phase Transition
+     Authors: Antonin Rottman, Leonard Logarić, Fumika Suzuki et al.
+     Summary: The celebrated Kibble-Zurek mechanism (KZM) characterizes the nonequilibrium dynamics of second-order phase transitions and predicts universal scaling of the av...
+--------------------------------------------------------------------------------
+[58] Year: 2026 | ID: 2610.36342v1
+     Title: Balanced Active Subspaces for Optimal Control via Trajectory Optimization
+     Authors: Emmanuel S. Ameh, Samuel E. Otto
+     Summary: The curse of dimensionality associated with solving the Hamilton-Jacobi-Bellman equation for the value function remains a key obstacle for real-time optimal fee...
+--------------------------------------------------------------------------------
+[59] Year: 2026 | ID: 2610.33722v1
+     Title: Latent dynamics for reconstructing fine-scale PDE trajectories from coarse observations
+     Authors: Chenhao Si, Zishan Qian, Shing-Tung Yau et al.
+     Summary: Coarse PDE observations omit spatial detail and intermediate states of evolving fields. We present Structured Latent Dynamics (SLD), a framework that reconstruc...
+--------------------------------------------------------------------------------
+[60] Year: 2026 | ID: 2609.39267v1
+     Title: Logarithmic Quasi-Long-Range Order and Novel Continuous Phase Transition in the Two-Dimensional $XY$ Model with $1/r^4$ Interaction
+     Authors: Xianzhi Pan, Zhijie Fan, Youjin Deng
+     Summary: We investigate the phase diagram and critical properties of the two-dimensional classical XY model with interactions decaying as $1/r^{2+σ}$. At the marginal ca...
+--------------------------------------------------------------------------------
+[61] Year: 2026 | ID: 2609.32951v1
+     Title: Domain growth in lipid membranes and the budding instability
+     Authors: Jean Wolff, Fabrice Thalmann, Carlos Marques et al.
+     Summary: We investigate the growth of a circular domain in a phase-separating lipid membrane and its relation to the budding instability. We describe the in-plane dynami...
+--------------------------------------------------------------------------------
+[62] Year: 2026 | ID: 2609.02521v1
+     Title: Universal fingerprint of topological defect cores
+     Authors: Zi-Qiang Zhao, Nayun Jia, Zhang-Yu Nie et al.
+     Summary: Topological defects are ubiquitous in physics, arising from condensed matter physics to the early universe. Although there exist many universal scaling laws for...
+--------------------------------------------------------------------------------
+[63] Year: 2026 | ID: 2609.00721v2
+     Title: BKT-like Correlation Scaling and Twist Responses in a One-Dimensional Fractional $U(1)$ Ginzburg--Landau Model
+     Authors: Hitomi Endo, Michikazu Kobayashi
+     Summary: We study a one-dimensional fractional $U(1)$ Ginzburg--Landau model whose quadratic part has Fourier multiplier $|k|^σ$, focusing on the marginal case $σ=1$. Th...
+--------------------------------------------------------------------------------
+[64] Year: 2026 | ID: 2608.30849v2
+     Title: Inertia-Driven Information Flow and Symmetry Breaking in a Nonequilibrium Two-Bead System
+     Authors: Jetin E. Thomas, Ramandeep S. Johal
+     Summary: We investigate information-flow generation in a nonequilibrium two-bead system coupled to two heat baths. We show that the system acts as an information-flow ge...
+--------------------------------------------------------------------------------
+[65] Year: 2026 | ID: 2611.02255v1
+     Title: Multiclass Classification with Rare Useful Features: Fundamental Limits and the Optimality of Diversity Pursuit Higher Criticism Thresholding
+     Authors: Gabriel Moryoussef, Alon Kipnis
+     Summary: We consider classification in high-dimensional feature spaces where only a vanishing fraction of features are useful and the number of classes may be large. Whi...
+--------------------------------------------------------------------------------
+[66] Year: 2026 | ID: 2607.15467v1
+     Title: ADS-C: Antidistillation Sampling for Classification
+     Authors: Khawaja Abaid Ullah, Mohammad Javad Khojasteh
+     Summary: Knowledge distillation enables an adversary to replicate a proprietary classifier by querying its prediction interface and training a surrogate on the returned ...
+--------------------------------------------------------------------------------
+[67] Year: 2025 | ID: 2510.23489v1
+     Title: Quantum Phase Classification of Rydberg Atom Systems Using Resource-Efficient Variational Quantum Circuits and Classical Shadows
+     Authors: Hemish Ahuja, Samradh Bhardwaj, Kirti Dhir et al.
+     Summary: Quantum phase transitions in Rydberg atom arrays present significant opportunities for studying many-body physics, yet distinguishing between different ordered ...
+--------------------------------------------------------------------------------
+[68] Year: 2025 | ID: 2501.10538v3
+     Title: Universality of Benign Overfitting in Binary Linear Classification
+     Authors: Ichiro Hashimoto, Stanislav Volgushev, Piotr Zwiernik
+     Summary: The practical success of deep learning has led to the discovery of several surprising phenomena. One of these phenomena, that has spurred intense theoretical re...
+--------------------------------------------------------------------------------
+[69] Year: 2024 | ID: 2406.20088v1
+     Title: Minimax And Adaptive Transfer Learning for Nonparametric Classification under Distributed Differential Privacy Constraints
+     Authors: Arnab Auddy, T. Tony Cai, Abhinav Chakraborty
+     Summary: This paper considers minimax and adaptive transfer learning for nonparametric classification under the posterior drift model with distributed differential priva...
+--------------------------------------------------------------------------------
+[70] Year: 2022 | ID: 2212.00700v3
+     Title: High Dimensional Binary Classification under Label Shift: Phase Transition and Regularization
+     Authors: Jiahui Cheng, Minshuo Chen, Hao Liu et al.
+     Summary: Label Shift has been widely believed to be harmful to the generalization performance of machine learning models. Researchers have proposed many approaches to mi...
+--------------------------------------------------------------------------------
+[71] Year: 2022 | ID: 2203.07040v1
+     Title: Soft-margin classification of object manifolds
+     Authors: Uri Cohen, Haim Sompolinsky
+     Summary: A neural population responding to multiple appearances of a single object defines a manifold in the neural response space. The ability to classify such manifold...
+--------------------------------------------------------------------------------
+[72] Year: 2022 | ID: 2203.04855v1
+     Title: Binary Classification Under $\ell_0$ Attacks for General Noise Distribution
+     Authors: Payam Delgosha, Hamed Hassani, Ramtin Pedarsani
+     Summary: Adversarial examples have recently drawn considerable attention in the field of machine learning due to the fact that small perturbations in the data can result...
+--------------------------------------------------------------------------------
+[73] Year: 2026 | ID: 2609.13940v1
+     Title: Optimal Transport for Efficient, Unsupervised Anomaly Detection on Industrial Data
+     Authors: Abigail Langbridge, Fearghal O'Donncha, James T Rayfield et al.
+     Summary: Effective anomaly detection frameworks are a central pillar of the Industry 4.0 paradigm. In this paper, we introduce an Optimal Transport (OT)-based framework ...
+--------------------------------------------------------------------------------
+[74] Year: 2026 | ID: 2603.16436v2
+     Title: DISCOVER: A Solver for Distributional Counterfactual Explanations
+     Authors: Yikai Gu, Lele Cao, Bo Zhao et al.
+     Summary: Counterfactual explanations (CE) explain model decisions by identifying input modifications that lead to different predictions. Most existing methods operate at...
+--------------------------------------------------------------------------------
+[75] Year: 2026 | ID: 2601.20692v1
+     Title: Optimal Transport Group Counterfactual Explanations
+     Authors: Enrique Valero-Leal, Bernd Bischl, Pedro Larrañaga et al.
+     Summary: Group counterfactual explanations find a set of counterfactual instances to explain a group of input instances contrastively. However, existing methods either (...
+--------------------------------------------------------------------------------
+[76] Year: 2024 | ID: 2410.05419v2
+     Title: Joint Distribution-Informed Shapley Values for Sparse Counterfactual Explanations
+     Authors: Lei You, Yijun Bian, Lele Cao
+     Summary: Counterfactual explanations (CE) aim to reveal how small input changes flip a model's prediction, yet many methods modify more features than necessary, reducing...
+--------------------------------------------------------------------------------
+[77] Year: 2024 | ID: 2401.13112v6
+     Title: Distributional Counterfactual Explanations With Optimal Transport
+     Authors: Lei You, Lele Cao, Mattias Nilsson et al.
+     Summary: Counterfactual explanations (CE) are the de facto method for providing insights into black-box decision-making models by identifying alternative inputs that lea...
+--------------------------------------------------------------------------------
+[78] Year: 2022 | ID: 2206.06854v3
+     Title: On the explainable properties of 1-Lipschitz Neural Networks: An Optimal Transport Perspective
+     Authors: Mathieu Serrurier, Franck Mamalet, Thomas Fel et al.
+     Summary: Input gradients have a pivotal role in a variety of applications, including adversarial attack algorithms for evaluating model robustness, explainable AI techni...
+--------------------------------------------------------------------------------
+[79] Year: 2025 | ID: 2505.18171v1
+     Title: Robust Knowledge Graph Embedding via Denoising
+     Authors: Tengwei Song, Xudong Ma, Yang Liu et al.
+     Summary: We focus on obtaining robust knowledge graph embedding under perturbation in the embedding space. To address these challenges, we introduce a novel framework, R...
+--------------------------------------------------------------------------------
+[80] Year: 2024 | ID: 2404.12368v3
+     Title: Gradient-Regularized Out-of-Distribution Detection
+     Authors: Sina Sharifi, Taha Entesari, Bardia Safaei et al.
+     Summary: One of the challenges for neural networks in real-life applications is the overconfident errors these models make when the data is not from the original trainin...
+--------------------------------------------------------------------------------

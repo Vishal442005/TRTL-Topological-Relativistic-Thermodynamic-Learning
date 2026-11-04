@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trtl"
+version = "1.0.0"
+description = "Topological-Relativistic-Thermodynamic Learning (TRTL): A Unified Physics-Grounded Machine Learning Framework"
+readme = "README.md"
+authors = [
+    { name = "TRTL Research Consortium", email = "research@trtl-learning.org" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+    "matplotlib>=3.7.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "torch>=2.0.0",
+    "xgboost>=1.7.0",
+    "lightgbm>=3.3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/trtl-consortium/trtl"
+Repository = "https://github.com/trtl-consortium/trtl"
+Documentation = "https://github.com/trtl-consortium/trtl/tree/main/docs"
+DOI = "https://doi.org/10.5281/zenodo.23936990"

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "2601.12519v1",
+    "title": "Learning Relativistic Geodesics and Chaotic Dynamics via Stabilized Lagrangian Neural Networks",
+    "authors": [
+      "Abdullah Umut Hamzaogullari",
+      "Arkadas Ozakin"
+    ],
+    "published": "2026-01-18",
+    "year": 2026,
+    "summary": "Lagrangian Neural Networks (LNNs) can learn arbitrary Lagrangians from trajectory data, but their unusual optimization objective leads to significant training instabilities that limit their application to complex systems. We propose several improvements that address these fundamental challenges, namely, a Hessian regularization scheme that penalizes unphysical signatures in the Lagrangian's second derivatives with respect to velocities, preventing the network from learning unstable dynamics, activation functions that are better suited to the problem of learning Lagrangians, and a physics-aware coordinate scaling that improves stability. We systematically evaluate these techniques alongside previously proposed methods for improving stability. Our improved architecture successfully trains on systems of unprecedented complexity, including triple pendulums, and achieved 96.6\\% lower validation loss value and 90.68\\% better stability than baseline LNNs in double pendulum systems. With the improved framework, we show that our LNNs can learn Lagrangians representing geodesic motion in both non-relativistic and general relativistic settings. To deal with the relativistic setting, we extended our regularization to penalize violations of Lorentzian signatures, which allowed us to predict a geodesic Lagrangian under AdS\\textsubscript{4} spacetime metric directly from trajectory data, which to our knowledge has not been done in the literature before. This opens new possibilities for automated discovery of geometric structures in physics, including extraction of spacetime metric tensor components from geodesic trajectories. While our approach inherits some limitations of the original LNN framework, particularly the requirement for invertible Hessians, it significantly expands the practical applicability of LNNs for scientific discovery tasks.",
+    "pdf_url": "https://arxiv.org/pdf/2601.12519v1",
+    "query": "ti:\"relativistic\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2026_2601.12519_Learning_Relativistic_Geodesics_and_Chao.pdf"
+  },
+  {
+    "id": "2106.08678v1",
+    "title": "Directed Graph Embeddings in Pseudo-Riemannian Manifolds",
+    "authors": [
+      "Aaron Sim",
+      "Maciej Wiatrak",
+      "Angus Brayne",
+      "P\u00e1id\u00ed Creed",
+      "Saee Paliwal"
+    ],
+    "published": "2021-06-16",
+    "year": 2021,
+    "summary": "The inductive biases of graph representation learning algorithms are often encoded in the background geometry of their embedding space. In this paper, we show that general directed graphs can be effectively represented by an embedding model that combines three components: a pseudo-Riemannian metric structure, a non-trivial global topology, and a unique likelihood function that explicitly incorporates a preferred direction in embedding space. We demonstrate the representational capabilities of this method by applying it to the task of link prediction on a series of synthetic and real directed graphs from natural language applications and biology. In particular, we show that low-dimensional cylindrical Minkowski and anti-de Sitter spacetimes can produce equal or better graph representations than curved Riemannian manifolds of higher dimensions.",
+    "pdf_url": "https://arxiv.org/pdf/2106.08678v1",
+    "query": "all:\"pseudo-Riemannian\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2021_2106.08678_Directed_Graph_Embeddings_in_Pseudo-Riem.pdf"
+  },
+  {
+    "id": "2007.00211v5",
+    "title": "Ultrahyperbolic Representation Learning",
+    "authors": [
+      "Marc T. Law",
+      "Jos Stam"
+    ],
+    "published": "2020-07-01",
+    "year": 2020,
+    "summary": "In machine learning, data is usually represented in a (flat) Euclidean space where distances between points are along straight lines. Researchers have recently considered more exotic (non-Euclidean) Riemannian manifolds such as hyperbolic space which is well suited for tree-like data. In this paper, we propose a representation living on a pseudo-Riemannian manifold of constant nonzero curvature. It is a generalization of hyperbolic and spherical geometries where the nondegenerate metric tensor need not be positive definite. We provide the necessary learning tools in this geometry and extend gradient-based optimization techniques. More specifically, we provide closed-form expressions for distances via geodesics and define a descent direction to minimize some objective function. Our novel framework is applied to graph representations.",
+    "pdf_url": "https://arxiv.org/pdf/2007.00211v5",
+    "query": "all:\"pseudo-Riemannian\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2020_2007.00211_Ultrahyperbolic_Representation_Learning.pdf"
+  },
+  {
+    "id": "2404.12368v3",
+    "title": "Gradient-Regularized Out-of-Distribution Detection",
+    "authors": [
+      "Sina Sharifi",
+      "Taha Entesari",
+      "Bardia Safaei",
+      "Vishal M. Patel",
+      "Mahyar Fazlyab"
+    ],
+    "published": "2024-04-18",
+    "year": 2024,
+    "summary": "One of the challenges for neural networks in real-life applications is the overconfident errors these models make when the data is not from the original training distribution.   Addressing this issue is known as Out-of-Distribution (OOD) detection.   Many state-of-the-art OOD methods employ an auxiliary dataset as a surrogate for OOD data during training to achieve improved performance.   However, these methods fail to fully exploit the local information embedded in the auxiliary dataset.   In this work, we propose the idea of leveraging the information embedded in the gradient of the loss function during training to enable the network to not only learn a desired OOD score for each sample but also to exhibit similar behavior in a local neighborhood around each sample.   We also develop a novel energy-based sampling method to allow the network to be exposed to more informative OOD samples during the training phase. This is especially important when the auxiliary dataset is large. We demonstrate the effectiveness of our method through extensive experiments on several OOD benchmarks, improving the existing state-of-the-art FPR95 by 4% on our ImageNet experiment.   We further provide a theoretical analysis through the lens of certified robustness and Lipschitz analysis to showcase the theoretical foundation of our work. Our code is available at https://github.com/o4lc/Greg-OOD.",
+    "pdf_url": "https://arxiv.org/pdf/2404.12368v3",
+    "query": "all:\"certified robustness\" AND all:\"energy-based\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2024_2404.12368_Gradient-Regularized_Out-of-Distribution.pdf"
+  },
+  {
+    "id": "2609.28248v2",
+    "title": "hyperbolix: Hyperbolic Deep Learning in JAX",
+    "authors": [
+      "Timo Klein",
+      "Thomas Lang",
+      "Yllka Velaj",
+      "Sebastian Tschiatschek"
+    ],
+    "published": "2026-09-23",
+    "year": 2026,
+    "summary": "We present hyperbolix, an open-source library for hyperbolic deep learning in JAX, built on Flax NNX. To our knowledge, it is the first comprehensive, general-purpose hyperbolic deep learning library in JAX. It includes six manifolds with a common interface: Euclidean space, the Poincar\u00e9 ball, the hyperboloid, the $\u03ba$-stereographic model, mixed-curvature product spaces, and the proper velocity space. We implement layer families that cover linear layers, convolutions, attention, normalization, positional encoding, regression, and vector quantization. These building blocks span methods ranging from Ganea's original hyperbolic neural networks to recent fully hyperbolic architectures such as Hypformer and Lorentzian ResNet. Additionally, hyperbolix contains Riemannian optimizers implemented as optax transformations, wrapped distributions, and hyperbolic dimensionality-reduction techniques. Its API uses idiomatic JAX: Manifolds are stateless, with curvature being passed at call time, while manifold operations act on single points, with vmap enabling batch operations. The precision of every checked operation is tested against a closed-form NumPy/SciPy transcription from the source paper or a finite difference, for both float32 and float64. On the hyperboloid, standard formulas for two-point operations, such as the distance, lose precision far from the origin, because they subtract two large, nearly equal terms. hyperbolix replaces these subtractions with cancellation-free formulas that stay accurate in float32 at distances where prior implementations return NaN. hyperbolix is available under the MIT license at https://github.com/timoklein/hyperbolix .",
+    "pdf_url": "https://arxiv.org/pdf/2609.28248v2",
+    "query": "all:\"Lorentzian\" AND (cat:cs.LG OR cat:stat.ML OR cat:math.ST)",
+    "local_pdf": "papers\\2026_2609.28248_hyperbolix__Hyperbolic_Deep_Learning_in.pdf"
+  },
+  {
+    "id": "2609.16925v1",
+    "title": "HyCoSeq: Contextual Hyperbolic Representation Learning for Genomic Sequences",
+    "authors": [
+      "Chenhao Zeng",
+      "Zhibin Pu",
+      "Shufei Ge"
+    ],
+    "published": "2026-09-15",
+    "year": 2026,
+    "summary": "Hyperbolic geometry provides a natural inductive bias for genomic representation learning, but existing hyperbolic genomic models primarily use Lorentz convolutions to learn local sequence representations, while their residual pathways do not directly aggregate full Lorentz representations. We propose HyCoSeq, a contextual hyperbolic representation learning framework for genomic sequences. HyCoSeq incorporates weighted Lorentzian residual aggregation into multi-curvature Lorentz encoding, allowing full Lorentz representations to participate directly in geometry-consistent local aggregation. It further introduces a bidirectional long short-term memory network that integrates information from both sequence directions to learn contextual relationships among local representations at different positions within a genomic sequence, thereby extending local hyperbolic convolutional encoding to sequence-level contextualized representations. Extensive experiments across diverse genomic tasks show that HyCoSeq outperforms existing hyperbolic baselines and, without large-scale genomic pretraining, achieves competitive performance against substantially larger pretrained DNA language models.",
+    "pdf_url": "https://arxiv.org/pdf/2609.16925v1",
+    "query": "all:\"Lorentzian\" AND (cat:cs.LG OR cat:stat.ML OR cat:math.ST)",
+    "local_pdf": "papers\\2026_2609.16925_HyCoSeq__Contextual_Hyperbolic_Represent.pdf"
+  },
+  {
+    "id": "2106.03134v4",
+    "title": "Pseudo-Riemannian Graph Convolutional Networks",
+    "authors": [
+      "Bo Xiong",
+      "Shichao Zhu",
+      "Nico Potyka",
+      "Shirui Pan",
+      "Chuan Zhou",
+      "Steffen Staab"
+    ],
+    "published": "2021-06-06",
+    "year": 2021,
+    "summary": "Graph convolutional networks (GCNs) are powerful frameworks for learning embeddings of graph-structured data. GCNs are traditionally studied through the lens of Euclidean geometry. Recent works find that non-Euclidean Riemannian manifolds provide specific inductive biases for embedding hierarchical or spherical data. However, they cannot align well with data of mixed graph topologies. We consider a larger class of pseudo-Riemannian manifolds that generalize hyperboloid and sphere. We develop new geodesic tools that allow for extending neural network operations into geodesically disconnected pseudo-Riemannian manifolds. As a consequence, we derive a pseudo-Riemannian GCN that models data in pseudo-Riemannian manifolds of constant nonzero curvature in the context of graph neural networks. Our method provides a geometric inductive bias that is sufficiently flexible to model mixed heterogeneous topologies like hierarchical graphs with cycles. We demonstrate the representational capabilities of this method by applying it to the tasks of graph reconstruction, node classification and link prediction on a series of standard graphs with mixed topologies. Empirical results demonstrate that our method outperforms Riemannian counterparts when embedding graphs of complex topologies.",
+    "pdf_url": "https://arxiv.org/pdf/2106.03134v4",
+    "query": "all:\"pseudo-Riemannian\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2021_2106.03134_Pseudo-Riemannian_Graph_Convolutional_Ne.pdf"
+  },
+  {
+    "id": "2611.02022v1",
+    "title": "Topological Defect Statistics in a Weakly First-Order Phase Transition",
+    "authors": [
+      "Antonin Rottman",
+      "Leonard Logari\u0107",
+      "Fumika Suzuki",
+      "Adolfo del Campo"
+    ],
+    "published": "2026-11-01",
+    "year": 2026,
+    "summary": "The celebrated Kibble-Zurek mechanism (KZM) characterizes the nonequilibrium dynamics of second-order phase transitions and predicts universal scaling of the average number of defects with the quench time. However, the KZM is not directly applicable to first-order phase transitions, where defect formation is instead governed by nucleation processes. Here, using a Ginzburg-Landau model, we investigate the defect-number statistics in a weakly first-order phase transition. We show that the resulting statistics contain signatures of both Kibble-Zurek dynamics and nucleation, revealing the interplay between these two defect-formation mechanisms. In particular, we find that the defect-number distribution evolves from approximately Gaussian to nearly Poissonian across the crossover from the KZM regime to nucleation-dominated defect formation. While the first two cumulants are well described by a simple additive estimate of the KZM and nucleation contributions, the third cumulant exhibits a plateau and an enhancement beyond this estimate, providing a sensitive probe of the interplay between the two defect-formation mechanisms.",
+    "pdf_url": "https://arxiv.org/pdf/2611.02022v1",
+    "query": "all:\"Ginzburg-Landau\" AND (cat:cs.LG OR cat:stat.ML OR cat:cond-mat.stat-mech)",
+    "local_pdf": "papers\\2026_2611.02022_Topological_Defect_Statistics_in_a_Weakl.pdf"
+  },
+  {
+    "id": "2512.08218v1",
+    "title": "PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning",
+    "authors": [
+      "Ye Qin",
+      "Jingchao Wang",
+      "Yang Shi",
+      "Haiying Huang",
+      "Junxu Li",
+      "Weijian Liu",
+      "Tinghui Chen",
+      "Jinghui Qin"
+    ],
+    "published": "2025-12-09",
+    "year": 2025,
+    "summary": "Capsule Networks (CapsNets) show exceptional graph representation capacity via dynamic routing and vectorized hierarchical representations, but they model the complex geometries of real\\-world graphs poorly by fixed\\-curvature space due to the inherent geodesical disconnectedness issues, leading to suboptimal performance. Recent works find that non\\-Euclidean pseudo\\-Riemannian manifolds provide specific inductive biases for embedding graph data, but how to leverage them to improve CapsNets is still underexplored. Here, we extend the Euclidean capsule routing into geodesically disconnected pseudo\\-Riemannian manifolds and derive a Pseudo\\-Riemannian Capsule Network (PR\\-CapsNet), which models data in pseudo\\-Riemannian manifolds of adaptive curvature, for graph representation learning. Specifically, PR\\-CapsNet enhances the CapsNet with Adaptive Pseudo\\-Riemannian Tangent Space Routing by utilizing pseudo\\-Riemannian geometry. Unlike single\\-curvature or subspace\\-partitioning methods, PR\\-CapsNet concurrently models hierarchical and cluster or cyclic graph structures via its versatile pseudo\\-Riemannian metric. It first deploys Pseudo\\-Riemannian Tangent Space Routing to decompose capsule states into spherical\\-temporal and Euclidean\\-spatial subspaces with diffeomorphic transformations. Then, an Adaptive Curvature Routing is developed to adaptively fuse features from different curvature spaces for complex graphs via a learnable curvature tensor with geometric attention from local manifold properties. Finally, a geometric properties\\-preserved Pseudo\\-Riemannian Capsule Classifier is developed to project capsule embeddings to tangent spaces and use curvature\\-weighted softmax for classification. Extensive experiments on node and graph classification benchmarks show PR\\-CapsNet outperforms SOTA models, validating PR\\-CapsNet's strong representation power for complex graph structures.",
+    "pdf_url": "https://arxiv.org/pdf/2512.08218v1",
+    "query": "all:\"pseudo-Riemannian\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2025_2512.08218_PR-CapsNet__Pseudo-Riemannian_Capsule_Ne.pdf"
+  },
+  {
+    "id": "2212.03720v1",
+    "title": "Pseudo-Riemannian Embedding Models for Multi-Relational Graph Representations",
+    "authors": [
+      "Saee Paliwal",
+      "Angus Brayne",
+      "Benedek Fabian",
+      "Maciej Wiatrak",
+      "Aaron Sim"
+    ],
+    "published": "2022-12-02",
+    "year": 2022,
+    "summary": "In this paper we generalize single-relation pseudo-Riemannian graph embedding models to multi-relational networks, and show that the typical approach of encoding relations as manifold transformations translates from the Riemannian to the pseudo-Riemannian case. In addition we construct a view of relations as separate spacetime submanifolds of multi-time manifolds, and consider an interpolation between a pseudo-Riemannian embedding model and its Wick-rotated Riemannian counterpart. We validate these extensions in the task of link prediction, focusing on flat Lorentzian manifolds, and demonstrate their use in both knowledge graph completion and knowledge discovery in a biological domain.",
+    "pdf_url": "https://arxiv.org/pdf/2212.03720v1",
+    "query": "all:\"pseudo-Riemannian\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2022_2212.03720_Pseudo-Riemannian_Embedding_Models_for_M.pdf"
+  },
+  {
+    "id": "2206.00449v1",
+    "title": "Ultrahyperbolic Knowledge Graph Embeddings",
+    "authors": [
+      "Bo Xiong",
+      "Shichao Zhu",
+      "Mojtaba Nayyeri",
+      "Chengjin Xu",
+      "Shirui Pan",
+      "Chuan Zhou",
+      "Steffen Staab"
+    ],
+    "published": "2022-06-01",
+    "year": 2022,
+    "summary": "Recent knowledge graph (KG) embeddings have been advanced by hyperbolic geometry due to its superior capability for representing hierarchies. The topological structures of real-world KGs, however, are rather heterogeneous, i.e., a KG is composed of multiple distinct hierarchies and non-hierarchical graph structures. Therefore, a homogeneous (either Euclidean or hyperbolic) geometry is not sufficient for fairly representing such heterogeneous structures. To capture the topological heterogeneity of KGs, we present an ultrahyperbolic KG embedding (UltraE) in an ultrahyperbolic (or pseudo-Riemannian) manifold that seamlessly interleaves hyperbolic and spherical manifolds. In particular, we model each relation as a pseudo-orthogonal transformation that preserves the pseudo-Riemannian bilinear form. The pseudo-orthogonal transformation is decomposed into various operators (i.e., circular rotations, reflections and hyperbolic rotations), allowing for simultaneously modeling heterogeneous structures as well as complex relational patterns. Experimental results on three standard KGs show that UltraE outperforms previous Euclidean- and hyperbolic-based approaches.",
+    "pdf_url": "https://arxiv.org/pdf/2206.00449v1",
+    "query": "all:\"pseudo-Riemannian\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2022_2206.00449_Ultrahyperbolic_Knowledge_Graph_Embeddin.pdf"
+  },
+  {
+    "id": "2607.15291v1",
+    "title": "A Physics-Informed Neural Network with a Modified Lorentzian Activation for Nonlocal Gradient-Flow Equations in Dynamic Density Functional Theory",
+    "authors": [
+      "Dimitrios Gourzoulidis",
+      "Soumaya Elkantassi",
+      "Serafim Kalliadasis"
+    ],
+    "published": "2026-06-24",
+    "year": 2026,
+    "summary": "We develop a physics-informed neural network (PINN) framework for nonlocal partial differential equations arising in dynamic density functional theory (DDFT). Such equations are challenging for standard PINN methods because they involve nonlinearities, nonlocal interaction terms, and an underlying gradient-flow structure, often leading to slow convergence and difficult optimization. We adapt the PINN methodology to DDFT gradient-flow equations and introduce two computational components: a modified Lorentzian activation function that behaves approximately linearly for small inputs and decays toward zero as the input magnitude increases, and a precomputed discrete operator for evaluating the nonlocal convolution term efficiently during training. The method is tested on four examples in one and two space dimensions. In the first example, the exact stationary solution is known, while in the remaining cases the neural-network approximations are validated against reference solutions computed using continuous and discontinuous Galerkin finite element discretizations. Accuracy and physical consistency are assessed through $L^1$, $L^2$, and $L^\\infty$ errors, together with mass conservation and free-energy dissipation. The results show that the proposed activation function accelerates convergence relative to the standard $\\tanh$ function, while the overall framework maintains good agreement with the reference solutions and captures the expected gradient-flow behaviour. These findings demonstrate the potential of the proposed PINN framework for solving nonlocal gradient-flow equations arising in DDFT.",
+    "pdf_url": "https://arxiv.org/pdf/2607.15291v1",
+    "query": "all:\"Lorentzian\" AND (cat:cs.LG OR cat:stat.ML OR cat:math.ST)",
+    "local_pdf": "papers\\2026_2607.15291_A_Physics-Informed_Neural_Network_with_a.pdf"
+  },
+  {
+    "id": "2608.13562v1",
+    "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
+    "authors": [
+      "Songhee Kang",
+      "Jihoon Kang"
+    ],
+    "published": "2026-05-07",
+    "year": 2026,
+    "summary": "Modern operational systems face uncertainty even in routine conditions, where rare, bursty, and self-exciting events emerge from both exogenous covariates and endogenous event dynamics. Standard neural operators are typically trained as regression-style function-to-function models rather than conditional-intensity estimators, limiting their suitability for sparse event regimes. We introduce the Lorentzian Fourier Neural Operator (L-FNO), a stochastic neural operator that combines an FNO-style covariate path, Lorentzian spectral kernels for history-dependent excitation, and a likelihood-based training objective. We evaluate L-FNO on eight synthetic point-process benchmarks and three real-world datasets covering disease outbreak prediction and semiconductor fault or defect detection. L-FNO improves event likelihood, calibration diagnostics, and rare-event detection over regression- and likelihood-based neural operator baselines. These results show that structured spectral memory and likelihood-based learning provide effective inductive biases for neural operator models of stochastic event dynamics.",
+    "pdf_url": "https://arxiv.org/pdf/2608.13562v1",
+    "query": "all:\"Lorentzian\" AND (cat:cs.LG OR cat:stat.ML OR cat:math.ST)",
+    "local_pdf": "papers\\2026_2608.13562_L-FNO__Lorentzian_Fourier_Neural_Operato.pdf"
+  },
+  {
+    "id": "2111.00006v1",
+    "title": "Adaptive Hierarchical Similarity Metric Learning with Noisy Labels",
+    "authors": [
+      "Jiexi Yan",
+      "Lei Luo",
+      "Cheng Deng",
+      "Heng Huang"
+    ],
+    "published": "2021-10-29",
+    "year": 2021,
+    "summary": "Deep Metric Learning (DML) plays a critical role in various machine learning tasks. However, most existing deep metric learning methods with binary similarity are sensitive to noisy labels, which are widely present in real-world data. Since these noisy labels often cause severe performance degradation, it is crucial to enhance the robustness and generalization ability of DML. In this paper, we propose an Adaptive Hierarchical Similarity Metric Learning method. It considers two noise-insensitive information, \\textit{i.e.}, class-wise divergence and sample-wise consistency. Specifically, class-wise divergence can effectively excavate richer similarity information beyond binary in modeling by taking advantage of Hyperbolic metric learning, while sample-wise consistency can further improve the generalization ability of the model using contrastive augmentation. More importantly, we design an adaptive strategy to integrate this information in a unified view. It is noteworthy that the new method can be extended to any pair-based metric loss. Extensive experimental results on benchmark datasets demonstrate that our method achieves state-of-the-art performance compared with current deep metric learning approaches.",
+    "pdf_url": "https://arxiv.org/pdf/2111.00006v1",
+    "query": "all:\"hyperbolic metric learning\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2021_2111.00006_Adaptive_Hierarchical_Similarity_Metric.pdf"
+  },
+  {
+    "id": "2606.15642v1",
+    "title": "CIWI-CKT: Chaos-Informed Wave Interference Feature Fusion and Cross-City Knowledge Transfer for Traffic Flow Forecasting",
+    "authors": [
+      "Abdul Joseph Fofanah",
+      "Lian Wen",
+      "David Chen",
+      "Shaoyang Zhang"
+    ],
+    "published": "2026-06-14",
+    "year": 2026,
+    "summary": "Accurate traffic flow prediction remains challenging in cross-city, data-scarce scenarios where limited historical data hinders model generalisation. The chaotic nature of traffic dynamics, complex spatio-temporal dependencies, and heterogeneous urban networks complicate few-shot learning across cities. Existing deep learning approaches either treat traffic as purely deterministic or lack mechanisms to model wave-like interference patterns essential for cross-regime traffic dynamics. To address these limitations, this paper proposes CIWI-CKT, a novel Chaos-Informed Wave Interference Feature Fusion framework with Cross-City Knowledge Transfer. Our framework introduces three core innovations: chaos-informed wave generation that extracts measurable chaos invariants and models traffic as adaptive wave components; meta-interference processing that captures wave interactions between support and query regimes while producing a predictability score for confidence estimation; and chaos-aware meta-learning that enables efficient cross-city knowledge transfer while preserving chaotic characteristics. We establish theoretical guarantees including chaos-to-wave stability, wave-induced dimension reduction, and meta-learning generalisation bounds. Extensive experiments on four real-world traffic datasets demonstrate that CIWI-CKT significantly outperforms state-of-the-art spatio-temporal graph learning, transfer learning, prompt-based, and few-shot methods, improving prediction accuracy while substantially reducing required training data.",
+    "pdf_url": "https://arxiv.org/pdf/2606.15642v1",
+    "query": "all:\"wave interference\" AND (cat:cs.LG OR cat:stat.ML OR cat:physics.comp-ph)",
+    "local_pdf": "papers\\2026_2606.15642_CIWI-CKT__Chaos-Informed_Wave_Interferen.pdf"
+  },
+  {
+    "id": "2610.25059v1",
+    "title": "HCFM: Helmholtz Component Flow Matching for Time Series Anomaly Detection",
+    "authors": [
+      "Shyam Sundar Saravanan",
+      "Tie Luo",
+      "Sanjay Madria"
+    ],
+    "published": "2026-10-18",
+    "year": 2026,
+    "summary": "Flow Matching (FM) is an efficient simulation-free approach for training flow-based generative models, making it a promising foundation for scalable time-series anomaly detection (TSAD). However, standard FM learns a monolithic vector field in which nominal transport and local density-changing behavior are entangled. This creates a central challenge for TSAD; local expansion and contraction carry crucial anomaly-sensitive information, yet isolating this signal requires expensive Jacobian-trace estimation over the entire field. We propose \\emph{Helmholtz Component Flow Matching} (HCFM), an unsupervised TSAD framework that parameterizes the vector field prediction network with separate transport, compression, and residual heads. The transport head is constrained to be divergence-free, so divergence estimation is restricted to the compression head, while a lightweight residual head absorbs the remaining mismatch. This structured parameterization improves scalability and detection performance by separating volume-preserving nominal transport from density-changing compression, yielding cleaner anomaly signals from distinct deviations of nominal behavior. Experiments on large-scale univariate and multivariate TSAD benchmarks show that HCFM consistently improves detection accuracy while maintaining efficient inference compared with 16 baselines. The code is available at https://github.com/TrustAIoT/HCFM__time-series-anomaly/",
+    "pdf_url": "https://arxiv.org/pdf/2610.25059v1",
+    "query": "all:\"Helmholtz\" AND (cat:cs.LG OR cat:stat.ML)",
+    "local_pdf": "papers\\2026_2610.25059_HCFM__Helmholtz_Component_Flow_Matching.pdf"
+  }
+]

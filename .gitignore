@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# LaTeX intermediate files (keep PDF)
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.synctex.gz
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
