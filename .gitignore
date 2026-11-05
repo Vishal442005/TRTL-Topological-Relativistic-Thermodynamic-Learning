@@ -6,13 +6,21 @@ __pycache__/
 build/
 dist/
 
-# LaTeX intermediate files (keep PDF)
-manuscript/*.aux
-manuscript/*.log
-manuscript/*.out
-manuscript/*.synctex.gz
-manuscript/*.fls
-manuscript/*.fdb_latexmk
+# Unpublished Manuscript Submissions & Draft Documents (Keep local only; do not push to public git)
+*.docx
+*.doc
+elsevier_submission/
+elseiver_submission/
+Nature_submission/
+manuscript/
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
 
 # OS / Editor
 .DS_Store
