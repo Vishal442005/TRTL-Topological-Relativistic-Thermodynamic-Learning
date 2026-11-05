@@ -148,12 +148,13 @@ def eq_certified_radius():
         '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>S</m:t></m:r></m:e><m:sub><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>c</m:t></m:r></m:sub></m:sSub>'
     )
 
-# 6. Counterfactual Recourse Velocity: dot{x}(t) = - \nabla_x F(S(x(t)), c_target) - \lambda (x(t) - x_orig)
+# 6. Counterfactual Recourse Velocity: dot{x}(t) = - W^{-1} \nabla_x F(S(x(t)), c_target) - \lambda (x(t) - x_orig)
 def eq_recourse_velocity():
     return (
         '<m:acc><m:accPr><m:chr m:val="&#x02D9;"/></m:accPr><m:e>'
         '<m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r></m:e></m:acc>'
         '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>t</m:t></m:r><m:r><m:t>) = &#x2212;</m:t></m:r>'
+        '<m:sSup><m:e><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>W</m:t></m:r></m:e><m:sup><m:r><m:t>&#x2212;1</m:t></m:r></m:sup></m:sSup>'
         '<m:sSub><m:e><m:r><m:t>&#x2207;</m:t></m:r></m:e><m:sub><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r></m:sub></m:sSub>'
         '<m:r><m:t> </m:t></m:r>'
         '<m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x2131;</m:t></m:r>'
