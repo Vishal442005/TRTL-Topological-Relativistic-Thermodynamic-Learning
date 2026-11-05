@@ -288,7 +288,7 @@ def build_pr_manuscript():
     p_author.paragraph_format.space_before = Pt(0)
     p_author.paragraph_format.space_after = Pt(12)
     r_author = p_author.add_run(
-        "Vishal, TRTL Research Consortium*\n"
+        "Vishal Chandel (ORCID: 0009-0006-0552-8551), TRTL Research Consortium*\n"
         "Department of Advanced Agentic AI and Computational Physics\n"
         "*Corresponding Author: vishal442005@outlook.com | Permanent Open-Science DOI: 10.5281/zenodo.23951913\n"
         "Manuscript prepared for: Pattern Recognition (Elsevier)"
@@ -1140,7 +1140,7 @@ def build_pr_manuscript():
     add_heading_2(doc, "CRediT Authorship Contribution Statement")
     add_body_p(
         doc,
-        "Vishal: Conceptualization, Methodology, Software, Formal Analysis, Investigation, Writing - Original Draft, Visualization, Project Administration. "
+        "Vishal Chandel: Conceptualization, Methodology, Software, Formal Analysis, Investigation, Writing - Original Draft, Visualization, Project Administration. "
         "TRTL Research Consortium: Data Curation, Validation, Writing - Review & Editing, Resources, Supervision."
     )
 

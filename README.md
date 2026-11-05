@@ -1,11 +1,13 @@
 # Topological-Relativistic-Thermodynamic Learning (TRTL)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23951913.svg)](https://doi.org/10.5281/zenodo.23951913)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0552--8551-green.svg)](https://orcid.org/0009-0006-0552-8551)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Status: Certified](https://img.shields.io/badge/Status-Fully%20Verified-brightgreen.svg)]()
 
 > **Official Open-Science Implementation & Reproducibility Suite**  
-> *Target Venue:* IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) / Elsevier Pattern Recognition.
+> *Author:* Vishal Chandel ([ORCID: 0009-0006-0552-8551](https://orcid.org/0009-0006-0552-8551)) & TRTL Research Consortium  
+> *Target Venue:* Elsevier Pattern Recognition / IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
 
 ---
 
@@ -141,10 +143,10 @@ The master script automatically validates environment prerequisites, runs verifi
 ## 5. Citation
 
 ```bibtex
-@article{trtl2026physics,
+@article{chandel2026trtl,
   title={Topological-Relativistic-Thermodynamic Learning: Continuous Manifold Invariance, Coherent Wave Superposition, and Certified Adversarial Immunity},
-  author={TRTL Research Consortium},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  author={Chandel, Vishal and TRTL Research Consortium},
+  journal={Pattern Recognition},
   year={2026},
   doi={10.5281/zenodo.23951913},
   url={https://doi.org/10.5281/zenodo.23951913}

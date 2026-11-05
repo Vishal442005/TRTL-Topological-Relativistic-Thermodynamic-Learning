@@ -1,11 +1,12 @@
 {
   "title": "Topological-Relativistic-Thermodynamic Learning (TRTL): A Unified Physics-Grounded Machine Learning Framework",
   "upload_type": "software",
-  "description": "Official reproduction suite and research artifact for Topological-Relativistic-Thermodynamic Learning (TRTL). Includes full mathematical proofs, non-Euclidean manifold embeddings, relativistic phase propagation engines, non-equilibrium thermodynamic phase transition monitors, 16 publication figures, 10 comparative benchmark tables, and submission packages for Elsevier Pattern Recognition.",
+  "description": "Official reproduction suite and research artifact for Topological-Relativistic-Thermodynamic Learning (TRTL). Includes full mathematical proofs, non-Euclidean manifold embeddings, relativistic phase propagation engines, non-equilibrium thermodynamic phase transition monitors, 16 publication figures, 10 comparative benchmark tables, and verified empirical benchmarks.",
   "creators": [
     {
-      "name": "Vishal",
-      "affiliation": "Advanced Agentic AI & Computational Physics Research Laboratory"
+      "name": "Chandel, Vishal",
+      "affiliation": "Advanced Agentic AI & Computational Physics Research Laboratory",
+      "orcid": "0009-0006-0552-8551"
     },
     {
       "name": "TRTL Research Consortium",
@@ -25,6 +26,6 @@
     "Adversarial Robustness",
     "Counterfactual Recourse"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "doi": "10.5281/zenodo.23951913"
 }

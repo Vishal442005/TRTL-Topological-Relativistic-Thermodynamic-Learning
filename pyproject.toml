@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trtl"
-version = "1.0.0"
+version = "1.0.1"
 description = "Topological-Relativistic-Thermodynamic Learning (TRTL): A Unified Physics-Grounded Machine Learning Framework"
 readme = "README.md"
 authors = [
+    { name = "Vishal Chandel", email = "vishal442005@outlook.com" },
     { name = "TRTL Research Consortium", email = "research@trtl-learning.org" }
 ]
 license = { text = "MIT" }
