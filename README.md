@@ -1,5 +1,5 @@
 # Topological-Relativistic-Thermodynamic Learning (TRTL)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23951913.svg)](https://doi.org/10.5281/zenodo.23951913)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23968898.svg)](https://doi.org/10.5281/zenodo.23968898)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0552--8551-green.svg)](https://orcid.org/0009-0006-0552-8551)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -148,7 +148,7 @@ The master script automatically validates environment prerequisites, runs verifi
   author={Chandel, Vishal and TRTL Research Consortium},
   journal={Pattern Recognition},
   year={2026},
-  doi={10.5281/zenodo.23951913},
-  url={https://doi.org/10.5281/zenodo.23951913}
+  doi={10.5281/zenodo.23968898},
+  url={https://doi.org/10.5281/zenodo.23968898}
 }
 ```
