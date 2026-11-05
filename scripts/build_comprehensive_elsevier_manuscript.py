@@ -259,7 +259,7 @@ def add_body_p(doc, text):
     return p
 
 
-def build_comprehensive_pr_manuscript():
+def build_comprehensive_elsevier_manuscript(journal="Pattern Recognition", output_dir=None, doc_name=None):
     doc = Document()
 
     # Set 1.0 inch page margins
@@ -283,10 +283,23 @@ def build_comprehensive_pr_manuscript():
     p_title.alignment = WD_ALIGN_PARAGRAPH.LEFT
     p_title.paragraph_format.space_before = Pt(0)
     p_title.paragraph_format.space_after = Pt(6)
-    r_title = p_title.add_run(
-        "Topological-Relativistic-Thermodynamic Learning (TRTL):\n"
-        "Continuous Manifold Invariance, Coherent Wave Superposition, and Certified Adversarial Immunity"
-    )
+
+    if journal == "Chaos, Solitons & Fractals":
+        title_str = (
+            "Topological-Relativistic-Thermodynamic Learning (TRTL):\n"
+            "Nonlinear Manifold Invariance, Coherent Wavepacket Superposition, and Non-Equilibrium Thermodynamic Phase Transitions"
+        )
+        prepared_str = "Manuscript prepared for: Chaos, Solitons & Fractals (Elsevier)"
+        keywords_str = "Nonlinear dynamics, Pseudo-Riemannian manifolds, Wavepacket solitons, Ginzburg-Landau thermodynamics, Lyapunov stability, Limit-cycle chattering"
+    else:
+        title_str = (
+            "Topological-Relativistic-Thermodynamic Learning (TRTL):\n"
+            "Continuous Manifold Invariance, Coherent Wave Superposition, and Certified Adversarial Immunity"
+        )
+        prepared_str = "Manuscript prepared for: Pattern Recognition (Elsevier)"
+        keywords_str = "Pattern recognition, Relativistic metric learning, Helmholtz wave superposition, Ginzburg-Landau thermodynamics, Certified adversarial robustness, Counterfactual recourse"
+
+    r_title = p_title.add_run(title_str)
     r_title.font.name = "Times New Roman"
     r_title.font.size = Pt(16)
     r_title.font.bold = True
@@ -298,8 +311,8 @@ def build_comprehensive_pr_manuscript():
     r_author = p_author.add_run(
         "Vishal Chandel (ORCID: 0009-0006-0552-8551), TRTL Research Consortium*\n"
         "Department of Advanced Agentic AI and Computational Physics\n"
-        "*Corresponding Author: vishal442005@outlook.com | Permanent Open-Science DOI: 10.5281/zenodo.23951913\n"
-        "Manuscript prepared for: Pattern Recognition (Elsevier)"
+        "*Corresponding Author: vishal442005@outlook.com | Permanent Open-Science DOI: 10.5281/zenodo.23968898\n"
+        f"{prepared_str}"
     )
     r_author.font.name = "Times New Roman"
     r_author.font.size = Pt(9.5)
@@ -336,7 +349,7 @@ def build_comprehensive_pr_manuscript():
         "recent 2020-2026 Lorentzian Hyperbolic, Complex Wave, and Energy Ginzburg-Landau models—demonstrate extraordinary label noise resilience: under 40% symmetric "
         "label corruption, Deep MLPs collapse by 43.40% (down to 54.49%), while TRTL maintains 89.63% accuracy (+35.1% advantage, Wilcoxon p = 0.000977 < 0.001). "
         "Furthermore, TRTL achieves a perfect 1.0000 AUROC on far-OOD void detection and generates continuous counterfactual recourse that is 9.2x more on-manifold "
-        "and 475x smoother than state-of-the-art DiCE optimization. All proofs, benchmarks, and publication-grade figures replicate in 3.62 seconds under Zenodo DOI: 10.5281/zenodo.23951913."
+        "and 475x smoother than state-of-the-art DiCE optimization. All proofs, benchmarks, and publication-grade figures replicate in 3.62 seconds under Zenodo DOI: 10.5281/zenodo.23968898."
     )
 
     p_kw = doc.add_paragraph()
@@ -347,7 +360,7 @@ def build_comprehensive_pr_manuscript():
     r_kwh.font.size = Pt(9.5)
     r_kwh.font.bold = True
     r_kwh.font.color.rgb = RGBColor(0, 0, 0)
-    r_kwt = p_kw.add_run("Pattern recognition, Relativistic metric learning, Helmholtz wave superposition, Ginzburg-Landau thermodynamics, Certified adversarial robustness, Counterfactual recourse")
+    r_kwt = p_kw.add_run(keywords_str)
     r_kwt.font.name = "Times New Roman"
     r_kwt.font.size = Pt(9.5)
     r_kwt.font.italic = True
@@ -1187,7 +1200,7 @@ def build_comprehensive_pr_manuscript():
     add_body_p(
         doc,
         "The complete source code, experimental pipelines, benchmark datasets, and 29 publication-grade figures supporting the findings of this study are permanently "
-        "archived and freely accessible on Zenodo under DOI: 10.5281/zenodo.23951913 (URL: https://doi.org/10.5281/zenodo.23951913). "
+        "archived and freely accessible on Zenodo under DOI: 10.5281/zenodo.23968898 (Concept DOI: 10.5281/zenodo.23951912; URL: https://doi.org/10.5281/zenodo.23968898). "
         "The official reproduction repository is hosted on GitHub at https://github.com/Vishal442005/TRTL-Topological-Relativistic-Thermodynamic-Learning."
     )
 
@@ -1230,20 +1243,31 @@ def build_comprehensive_pr_manuscript():
         r_ref.font.size = Pt(8.5)
         r_ref.font.color.rgb = RGBColor(0, 0, 0)
 
-    # Save to both destinations
-    out_dir1 = "elsevier_submission"
-    out_dir2 = "elseiver_submission"
-    os.makedirs(out_dir1, exist_ok=True)
-    os.makedirs(out_dir2, exist_ok=True)
+    # Save to designated directory
+    if output_dir is None:
+        if journal == "Chaos, Solitons & Fractals":
+            output_dir = "CSF_submission"
+            doc_name = doc_name or "TRTL_Manuscript_Chaos_Solitons_Fractals.docx"
+        else:
+            output_dir = "elsevier_submission"
+            doc_name = doc_name or "TRTL_Manuscript_Pattern_Recognition.docx"
 
-    path1 = os.path.join(out_dir1, "TRTL_Manuscript_Pattern_Recognition.docx")
-    path2 = os.path.join(out_dir2, "TRTL_Manuscript_Pattern_Recognition.docx")
+    os.makedirs(output_dir, exist_ok=True)
+    out_path = os.path.join(output_dir, doc_name)
+    doc.save(out_path)
+    print(f"[SUCCESS] {journal} submission manuscript generated successfully!")
+    print(f" -> Saved to: {out_path} ({os.path.getsize(out_path):,} bytes)")
 
-    doc.save(path1)
-    shutil.copy2(path1, path2)
-    print(f"[SUCCESS] Pattern Recognition submission manuscript generated successfully!")
-    print(f" -> Saved to: {path1} ({os.path.getsize(path1):,} bytes)")
-    print(f" -> Mirrored to: {path2} ({os.path.getsize(path2):,} bytes)")
+    if journal == "Pattern Recognition" and output_dir == "elsevier_submission":
+        os.makedirs("elseiver_submission", exist_ok=True)
+        shutil.copy2(out_path, os.path.join("elseiver_submission", doc_name))
+        print(f" -> Mirrored to: elseiver_submission/{doc_name}")
+
+    return out_path
+
+
+def build_comprehensive_pr_manuscript():
+    return build_comprehensive_elsevier_manuscript("Pattern Recognition")
 
 
 if __name__ == "__main__":
