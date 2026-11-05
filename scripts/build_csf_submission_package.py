@@ -100,7 +100,8 @@ def build_csf_cover_letter(output_path):
         "Vishal Chandel (ORCID: 0009-0006-0552-8551)\n"
         "Corresponding Author\n"
         "On behalf of the TRTL Research Consortium\n"
-        "Department of Advanced Agentic AI and Computational Physics\n"
+        "Department of Computational Physics and Artificial Intelligence\n"
+        "Indian Institute of Information Technology (IIIT), Gwalior, MP, 474015, India\n"
         "Email: vishal442005@outlook.com\n"
         "Permanent DOI: https://doi.org/10.5281/zenodo.23968898"
     )
@@ -192,7 +193,7 @@ def build_csf_coi_declaration(output_path):
         "Specifically:\n"
         "- The authors have received no commercial or industrial funding for this study.\n"
         "- The authors possess no stock, employment, patent royalties, or personal financial interest in any commercial entity related to this work.\n"
-        "- All computational research, theoretical derivations, and benchmark reproductions were conducted independently in the Department of Advanced Agentic AI and Computational Physics.\n\n"
+        "- All computational research, theoretical derivations, and benchmark reproductions were conducted in the Department of Computational Physics and Artificial Intelligence, Indian Institute of Information Technology (IIIT), Gwalior, MP, 474015, India.\n\n"
         "Signed on behalf of all authors,\n\n"
         "Vishal Chandel\n"
         "Corresponding Author\n"
