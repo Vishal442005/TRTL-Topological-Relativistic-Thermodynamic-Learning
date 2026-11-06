@@ -169,3 +169,64 @@ def eq_recourse_velocity():
         '<m:sSub><m:e><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r></m:e><m:sub><m:r><m:t>orig</m:t></m:r></m:sub></m:sSub>'
         '</m:e></m:d>'
     )
+
+# 7. Wave Energy with Cutoff Support
+def eq_wave_energy():
+    return (
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>E</m:t></m:r></m:e><m:sub><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>c</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r><m:r><m:t>) = </m:t></m:r>'
+        '<m:r><m:rPr><m:nor/></m:rPr><m:t>max</m:t></m:r>'
+        '<m:d><m:e><m:r><m:t>0, </m:t></m:r>'
+        '<m:sSup><m:e><m:d><m:dPr><m:begChr m:val="|"/><m:endChr m:val="|"/></m:dPr><m:e>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03A8;</m:t></m:r></m:e><m:sub><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>c</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r><m:r><m:t>)</m:t></m:r>'
+        '</m:e></m:d></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup>'
+        '<m:r><m:t> &#x2212; </m:t></m:r>'
+        '<m:f><m:num><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03BA;</m:t></m:r></m:num><m:den><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>C</m:t></m:r><m:r><m:t>&#x2212;1</m:t></m:r></m:den></m:f>'
+        '<m:nary><m:naryPr><m:chr m:val="&#x2211;"/><m:limLoc m:val="undOvr"/></m:naryPr>'
+        '<m:sub><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>c</m:t></m:r><m:r><m:t>&#x2032;&#x2260;</m:t></m:r><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>c</m:t></m:r></m:sub><m:sup/>'
+        '<m:e><m:sSup><m:e><m:d><m:dPr><m:begChr m:val="|"/><m:endChr m:val="|"/></m:dPr><m:e>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03A8;</m:t></m:r></m:e><m:sub><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>c</m:t></m:r><m:r><m:t>&#x2032;</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r><m:r><m:t>)</m:t></m:r>'
+        '</m:e></m:d></m:e><m:sup><m:r><m:t>2</m:t></m:r></m:sup></m:sSup></m:e></m:nary>'
+        '</m:e></m:d>'
+        '<m:r><m:t> &#x22C5; </m:t></m:r>'
+        '<m:sSub><m:e><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>1</m:t></m:r></m:e><m:sub><m:d><m:e><m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>d</m:t></m:r></m:e><m:sub><m:r><m:t>min</m:t></m:r></m:sub></m:sSub><m:r><m:t>&#x2264;</m:t></m:r><m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>R</m:t></m:r></m:e><m:sub><m:r><m:t>cut</m:t></m:r></m:sub></m:sSub></m:e></m:d></m:sub></m:sSub>'
+    )
+
+# 8. Dynamic Temperature Coupling: T(x) = T_0 + \Delta T / (1 + E_tot(x)/\sigma_E)
+def eq_temperature_coupling():
+    return (
+        '<m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>T</m:t></m:r>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r><m:r><m:t>) = </m:t></m:r>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>T</m:t></m:r></m:e><m:sub><m:r><m:t>0</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t> + </m:t></m:r>'
+        '<m:f><m:num><m:r><m:t>&#x0394;</m:t></m:r><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>T</m:t></m:r></m:num>'
+        '<m:den>'
+        '<m:r><m:t>1 + </m:t></m:r>'
+        '<m:f><m:num><m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>E</m:t></m:r></m:e><m:sub><m:r><m:t>tot</m:t></m:r></m:sub></m:sSub><m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>x</m:t></m:r><m:r><m:t>)</m:t></m:r></m:num>'
+        '<m:den><m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03C3;</m:t></m:r></m:e><m:sub><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>E</m:t></m:r></m:sub></m:sSub></m:den></m:f>'
+        '</m:den></m:f>'
+    )
+
+# 9. Discrete Inference Assignment
+def eq_discrete_inference():
+    return eq_argmax_decision()
+
+# 10. Total Loss Functional
+def eq_total_loss():
+    return (
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>L</m:t></m:r></m:e><m:sub><m:r><m:t>total</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t> = </m:t></m:r>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>L</m:t></m:r></m:e><m:sub><m:r><m:t>CE</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:acc><m:accPr><m:chr m:val="&#x0302;"/></m:accPr><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>p</m:t></m:r></m:e></m:acc><m:r><m:t>, y) + </m:t></m:r>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03BB;</m:t></m:r></m:e><m:sub><m:r><m:t>1</m:t></m:r></m:sub></m:sSub>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>L</m:t></m:r></m:e><m:sub><m:r><m:t>entropy</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>W</m:t></m:r><m:r><m:t>) + </m:t></m:r>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03BB;</m:t></m:r></m:e><m:sub><m:r><m:t>2</m:t></m:r></m:sub></m:sSub>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>L</m:t></m:r></m:e><m:sub><m:r><m:t>sparse</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>W</m:t></m:r><m:r><m:t>) + </m:t></m:r>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>&#x03BB;</m:t></m:r></m:e><m:sub><m:r><m:t>3</m:t></m:r></m:sub></m:sSub>'
+        '<m:sSub><m:e><m:r><m:rPr><m:scr m:val="it"/></m:rPr><m:t>L</m:t></m:r></m:e><m:sub><m:r><m:t>barrier</m:t></m:r></m:sub></m:sSub>'
+        '<m:r><m:t>(</m:t></m:r><m:r><m:rPr><m:sty m:val="b"/><m:scr m:val="it"/></m:rPr><m:t>W</m:t></m:r><m:r><m:t>, &#x03A8;)</m:t></m:r>'
+    )
